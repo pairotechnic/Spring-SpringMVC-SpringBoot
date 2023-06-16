@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+ 
+<!-- The web.xml file has been replaced by the MyWebInitializer class file -->
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+<!--<servlet>
+		<servlet-name>telusko</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>telusko</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping> -->
+		<!-- The "/" in <url-pattern> tag refers to any request -->
+		<!-- This means, for any request, the servlet with name "telusko" must be called. Here, in the servlet definitions given above, that refers to the Dispatcher Servlet -->
+
+</web-app>
